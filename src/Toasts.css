@@ -1,0 +1,41 @@
+.toast-container {
+  position: fixed;
+  top: 0.5rem;
+  right: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.toast {
+  width: 200px;
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid black;
+  position: relative;
+  transition: all 0.3s ease-in-out;
+}
+
+.cross {
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.success {
+  background-color: yellow;
+}
+
+.info {
+  background-color: blueviolet;
+}
+
+.warning {
+  background-color: orange;
+}
+
+.error {
+  background-color: red;
+}
